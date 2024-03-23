@@ -1,0 +1,407 @@
+{
+  "dates": {
+    "maximum": "2024-04-17",
+    "minimum": "2024-03-27"
+  },
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "backdrop_path": "/1XDDXPXGiI8id7MrUxK36ke7gkX.jpg",
+      "genre_ids": [
+        28,
+        12,
+        16,
+        35,
+        10751
+      ],
+      "id": 1011985,
+      "original_language": "en",
+      "original_title": "Kung Fu Panda 4",
+      "overview": "Po is gearing up to become the spiritual leader of his Valley of Peace, but also needs someone to take his place as Dragon Warrior. As such, he will train a new kung fu practitioner for the spot and will encounter a villain called the Chameleon who conjures villains from the past.",
+      "popularity": 5151.423,
+      "poster_path": "/wkfG7DaExmcVsGLR4kLouMwxeT5.jpg",
+      "release_date": "2024-03-02",
+      "title": "Kung Fu Panda 4",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 232
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zAepSrO99owYwQqi0QG2AS0dHXw.jpg",
+      "genre_ids": [
+        28,
+        14
+      ],
+      "id": 634492,
+      "original_language": "en",
+      "original_title": "Madame Web",
+      "overview": "Forced to confront revelations about her past, paramedic Cassandra Webb forges a relationship with three young women destined for powerful futures...if they can all survive a deadly present.",
+      "popularity": 2288.399,
+      "poster_path": "/rULWuutDcN5NvtiZi4FRPzRYWSh.jpg",
+      "release_date": "2024-02-14",
+      "title": "Madame Web",
+      "video": false,
+      "vote_average": 5.568,
+      "vote_count": 636
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/87IVlclAfWL6mdicU1DDuxdwXwe.jpg",
+      "genre_ids": [
+        878,
+        12
+      ],
+      "id": 693134,
+      "original_language": "en",
+      "original_title": "Dune: Part Two",
+      "overview": "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, Paul endeavors to prevent a terrible future only he can foresee.",
+      "popularity": 746.796,
+      "poster_path": "/czembW0Rk1Ke7lCJGahbOhdCuhV.jpg",
+      "release_date": "2024-02-27",
+      "title": "Dune: Part Two",
+      "video": false,
+      "vote_average": 8.4,
+      "vote_count": 1973
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/gklkxY0veMajdCiGe6ggsh07VG2.jpg",
+      "genre_ids": [
+        16,
+        28,
+        12,
+        35,
+        10751
+      ],
+      "id": 940551,
+      "original_language": "en",
+      "original_title": "Migration",
+      "overview": "After a migrating duck family alights on their pond with thrilling tales of far-flung places, the Mallard family embarks on a family road trip, from New England, to New York City, to tropical Jamaica.",
+      "popularity": 689.368,
+      "poster_path": "/ldfCF9RhR40mppkzmftxapaHeTo.jpg",
+      "release_date": "2023-12-06",
+      "title": "Migration",
+      "video": false,
+      "vote_average": 7.566,
+      "vote_count": 968
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/sR0SpCrXamlIkYMdfz83sFn5JS6.jpg",
+      "genre_ids": [
+        28,
+        878,
+        12
+      ],
+      "id": 823464,
+      "original_language": "en",
+      "original_title": "Godzilla x Kong: The New Empire",
+      "overview": "Following their explosive showdown, Godzilla and Kong must reunite against a colossal undiscovered threat hidden within our world, challenging their very existence – and our own.",
+      "popularity": 575.752,
+      "poster_path": "/tMefBSflR6PGQLv7WvFPpKLZkyk.jpg",
+      "release_date": "2024-03-27",
+      "title": "Godzilla x Kong: The New Empire",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/nb3xI8XI3w4pMVZ38VijbsyBqP4.jpg",
+      "genre_ids": [
+        18,
+        36
+      ],
+      "id": 872585,
+      "original_language": "en",
+      "original_title": "Oppenheimer",
+      "overview": "The story of J. Robert Oppenheimer's role in the development of the atomic bomb during World War II.",
+      "popularity": 472.058,
+      "poster_path": "/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+      "release_date": "2023-07-19",
+      "title": "Oppenheimer",
+      "video": false,
+      "vote_average": 8.112,
+      "vote_count": 7298
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/a0GM57AnJtNi7lMOCamniiyV10W.jpg",
+      "genre_ids": [
+        16,
+        12,
+        14
+      ],
+      "id": 508883,
+      "original_language": "ja",
+      "original_title": "君たちはどう生きるか",
+      "overview": "While the Second World War rages, the teenage Mahito, haunted by his mother's tragic death, is relocated from Tokyo to the serene rural home of his new stepmother Natsuko, a woman who bears a striking resemblance to the boy's mother. As he tries to adjust, this strange new world grows even stranger following the appearance of a persistent gray heron, who perplexes and bedevils Mahito, dubbing him the \"long-awaited one.\"",
+      "popularity": 313.427,
+      "poster_path": "/f4oZTcfGrVTXKTWg157AwikXqmP.jpg",
+      "release_date": "2023-07-14",
+      "title": "The Boy and the Heron",
+      "video": false,
+      "vote_average": 7.444,
+      "vote_count": 1119
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4MCKNAc6AbWjEsM2h9Xc29owo4z.jpg",
+      "genre_ids": [
+        28,
+        53,
+        18
+      ],
+      "id": 866398,
+      "original_language": "en",
+      "original_title": "The Beekeeper",
+      "overview": "One man's campaign for vengeance takes on national stakes after he is revealed to be a former operative of a powerful and clandestine organization known as Beekeepers.",
+      "popularity": 306.731,
+      "poster_path": "/A7EByudX0eOzlkQ2FIbogzyazm2.jpg",
+      "release_date": "2024-01-08",
+      "title": "The Beekeeper",
+      "video": false,
+      "vote_average": 7.477,
+      "vote_count": 1777
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/aINel9503ompOlGKn4sIVMg09Un.jpg",
+      "genre_ids": [
+        9648,
+        27,
+        53
+      ],
+      "id": 838209,
+      "original_language": "ko",
+      "original_title": "파묘",
+      "overview": "After suffering from serial paranormal events, a wealthy family living in LA summons a young rising shaman duo Hwa-rim and Bong-gil to save the newborn of the family. Once they arrive, Hwa-rim senses a dark shadow of their ancestor has latched on the family, so-called a 'Grave's Calling'. In order to exhume the grave and relieve the ancestor, Hwa-rim seeks help from the top-notch geomancer Sang-duk and the mortician Young-geun. To their dismay, the four find the grave at a shady location in a remote village in Korea. Unaware of the consequences, the exhumation is carried out, yet this rather unleashes a malevolent force buried underneath.",
+      "popularity": 262.65,
+      "poster_path": "/pQYHouPsDw32FhDLr7E3jmw0WTk.jpg",
+      "release_date": "2024-02-22",
+      "title": "Exhuma",
+      "video": false,
+      "vote_average": 8.34,
+      "vote_count": 25
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hIeEpk2w1dnC9ly9ZJwwbunH2Cx.jpg",
+      "genre_ids": [
+        16,
+        35,
+        18,
+        10751
+      ],
+      "id": 838240,
+      "original_language": "xx",
+      "original_title": "Robot Dreams",
+      "overview": "Dog lives in Manhattan and he's tired of being alone. One day he decides to build himself a robot, a companion. Their friendship blossoms, until they become inseparable, to the rhythm of 80's NYC. One summer night, Dog, with great sadness, is forced to abandon Robot at the beach. Will they ever meet again?",
+      "popularity": 260.241,
+      "poster_path": "/vSzOobYVu16MogSALNg1bjTaGc.jpg",
+      "release_date": "2023-10-20",
+      "title": "Robot Dreams",
+      "video": false,
+      "vote_average": 7.504,
+      "vote_count": 130
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qPwA2tXV8fGXfOVYu3aIgctzqtB.jpg",
+      "genre_ids": [
+        14,
+        12,
+        35
+      ],
+      "id": 967847,
+      "original_language": "en",
+      "original_title": "Ghostbusters: Frozen Empire",
+      "overview": "The Spengler family returns to where it all started – the iconic New York City firehouse – to team up with the original Ghostbusters, who've developed a top-secret research lab to take busting ghosts to the next level. But when the discovery of an ancient artifact unleashes an evil force, Ghostbusters new and old must join forces to protect their home and save the world from a second Ice Age.",
+      "popularity": 240.017,
+      "poster_path": "/5QKNegIYBUxNYdx39nCsemwgXM8.jpg",
+      "release_date": "2024-03-20",
+      "title": "Ghostbusters: Frozen Empire",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 18
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zIYROrkHJPYB3VTiW1L9QVgaQO.jpg",
+      "genre_ids": [
+        28,
+        35
+      ],
+      "id": 897087,
+      "original_language": "en",
+      "original_title": "Freelance",
+      "overview": "An ex-special forces operative takes a job to provide security for a journalist as she interviews a dictator, but a military coup breaks out in the middle of the interview, they are forced to escape into the jungle where they must survive.",
+      "popularity": 172.993,
+      "poster_path": "/7Bd4EUOqQDKZXA6Od5gkfzRNb0.jpg",
+      "release_date": "2023-10-05",
+      "title": "Freelance",
+      "video": false,
+      "vote_average": 6.533,
+      "vote_count": 628
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/fGe1ej335XbqN1j9teoDpofpbLX.jpg",
+      "genre_ids": [
+        53,
+        9648,
+        80
+      ],
+      "id": 915935,
+      "original_language": "fr",
+      "original_title": "Anatomie d'une chute",
+      "overview": "A woman is suspected of her husband's murder, and their blind son faces a moral dilemma as the sole witness.",
+      "popularity": 150.172,
+      "poster_path": "/kQs6keheMwCxJxrzV83VUwFtHkB.jpg",
+      "release_date": "2023-08-23",
+      "title": "Anatomy of a Fall",
+      "video": false,
+      "vote_average": 7.643,
+      "vote_count": 1485
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/aPQsU3yLDUOhLJYnSqkhKRkQTAw.jpg",
+      "genre_ids": [
+        36,
+        18,
+        10752
+      ],
+      "id": 467244,
+      "original_language": "en",
+      "original_title": "The Zone of Interest",
+      "overview": "The commandant of Auschwitz, Rudolf Höss, and his wife Hedwig, strive to build a dream life for their family in a house and garden next to the camp.",
+      "popularity": 145.858,
+      "poster_path": "/hUu9zyZmDd8VZegKi1iK1Vk0RYS.jpg",
+      "release_date": "2023-12-15",
+      "title": "The Zone of Interest",
+      "video": false,
+      "vote_average": 7.32,
+      "vote_count": 888
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/n2bmFKv52Kpm1dguOGdn80vduK.jpg",
+      "genre_ids": [
+        27,
+        9648,
+        53
+      ],
+      "id": 1125311,
+      "original_language": "en",
+      "original_title": "Imaginary",
+      "overview": "When Jessica moves back into her childhood home with her family, her youngest stepdaughter Alice develops an eerie attachment to a stuffed bear named Chauncey she finds in the basement. Alice starts playing games with Chauncey that begin playful and become increasingly sinister. As Alice’s behavior becomes more and more concerning, Jessica intervenes only to realize Chauncey is much more than the stuffed toy bear she believed him to be.",
+      "popularity": 116.904,
+      "poster_path": "/9u6HEtZJdZDjPGGJq6YEuhPnoan.jpg",
+      "release_date": "2024-03-06",
+      "title": "Imaginary",
+      "video": false,
+      "vote_average": 5.4,
+      "vote_count": 57
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/z5AUKpMcvF7Grw7JDTgoNzOU6LD.jpg",
+      "genre_ids": [
+        18,
+        36
+      ],
+      "id": 850165,
+      "original_language": "en",
+      "original_title": "The Iron Claw",
+      "overview": "The true story of the inseparable Von Erich brothers, who made history in the intensely competitive world of professional wrestling in the early 1980s. Through tragedy and triumph, under the shadow of their domineering father and coach, the brothers seek larger-than-life immortality on the biggest stage in sports.",
+      "popularity": 113.734,
+      "poster_path": "/nfs7DCYhgrEIgxKYbITHTzKsggf.jpg",
+      "release_date": "2023-12-21",
+      "title": "The Iron Claw",
+      "video": false,
+      "vote_average": 7.515,
+      "vote_count": 366
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/92LX2nflnkxHtmV2WRb4I4lSXsY.jpg",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "id": 744857,
+      "original_language": "es",
+      "original_title": "Cuando acecha la maldad",
+      "overview": "Residents of a small rural town discover that a demon is about to be born among them. They desperately try to escape before the evil is born, but it may be too late.",
+      "popularity": 111.155,
+      "poster_path": "/iQ7G9LhP7NRRIUM4Vlai3eOxBAc.jpg",
+      "release_date": "2023-10-05",
+      "title": "When Evil Lurks",
+      "video": false,
+      "vote_average": 7.4,
+      "vote_count": 574
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/47SVqaO02doJ06tOmrjiWDkwU3T.jpg",
+      "genre_ids": [
+        28,
+        53
+      ],
+      "id": 927107,
+      "original_language": "en",
+      "original_title": "The Bricklayer",
+      "overview": "Someone is blackmailing the CIA by assassinating foreign journalists and making it look like the agency is responsible. As the world begins to unite against the U.S., the CIA must lure its most brilliant – and rebellious – operative out of retirement, forcing him to confront his checkered past while unraveling an international conspiracy.",
+      "popularity": 107.64,
+      "poster_path": "/36pYugctLa70NmwMEgXTR1G31Kq.jpg",
+      "release_date": "2023-12-14",
+      "title": "The Bricklayer",
+      "video": false,
+      "vote_average": 6.033,
+      "vote_count": 135
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/7grv5ULlK9wMr2T1fkgr56HlbT.jpg",
+      "genre_ids": [
+        18,
+        36,
+        10752
+      ],
+      "id": 760774,
+      "original_language": "en",
+      "original_title": "One Life",
+      "overview": "British stockbroker Nicholas Winton visits Czechoslovakia in the 1930s and forms plans to assist in the rescue of Jewish children before the onset of World War II, in an operation that came to be known as the Kindertransport.",
+      "popularity": 105.257,
+      "poster_path": "/yvnIWt2j8VnDgwKJE2VMiFMa2Qo.jpg",
+      "release_date": "2023-09-09",
+      "title": "One Life",
+      "video": false,
+      "vote_average": 7.7,
+      "vote_count": 219
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/mIBG74mhGEJnBubhYLkCtvplcNr.jpg",
+      "genre_ids": [
+        27
+      ],
+      "id": 437342,
+      "original_language": "en",
+      "original_title": "The First Omen",
+      "overview": "When a young American woman is sent to Rome to begin a life of service to the church, she encounters a darkness that causes her to question her own faith and uncovers a terrifying conspiracy that hopes to bring about the birth of evil incarnate.",
+      "popularity": 102.596,
+      "poster_path": "/aZGKYvsc5gvUt784FcUulIVVva8.jpg",
+      "release_date": "2024-04-03",
+      "title": "The First Omen",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    }
+  ],
+  "total_pages": 42,
+  "total_results": 832
+}

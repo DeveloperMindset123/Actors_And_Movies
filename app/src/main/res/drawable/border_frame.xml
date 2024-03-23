@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/transparent" /> <!-- Background color, make it transparent or any color -->
+    <stroke android:width="2dp" android:color="#FF000000" /> <!-- Border thickness and color -->
+    <!-- Optional: for rounded corners -->
+    <corners android:radius="2dp" />
+</shape>
+
+    <!--creates a border frame around the item_article individually-->
