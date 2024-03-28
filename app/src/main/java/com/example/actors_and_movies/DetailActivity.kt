@@ -1,5 +1,6 @@
 package com.example.actors_and_movies
 
+
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView

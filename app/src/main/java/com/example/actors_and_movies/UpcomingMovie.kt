@@ -5,6 +5,7 @@ import android.support.annotation.Keep
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 //import java.io.Serializable
+import com.example.actors_and_movies.DetailActivity
 
 //Following sample code shows the api call that needs to be made: https://api.themoviedb.org/3/movie/upcoming?language=en-US&page=1&api_key="API-KEY-GOES-HERE" --> I need to see what the sample response looks like in order to determine the data class
 /*

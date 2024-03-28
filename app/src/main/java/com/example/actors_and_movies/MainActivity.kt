@@ -17,6 +17,7 @@ import kotlinx.serialization.decodeFromString
 import okhttp3.Headers
 import org.json.JSONException
 import kotlinx.serialization.json.Json
+import com.example.actors_and_movies.DetailActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var moviesRecyclerView: RecyclerView
