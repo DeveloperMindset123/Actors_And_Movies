@@ -4,9 +4,10 @@ package com.example.actors_and_movies  //name of the package we are working with
 import android.support.annotation.Keep
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
+//import java.io.Serializable
 
 //Following sample code shows the api call that needs to be made: https://api.themoviedb.org/3/movie/upcoming?language=en-US&page=1&api_key="API-KEY-GOES-HERE" --> I need to see what the sample response looks like in order to determine the data class
-
+/*
 @android.support.annotation.Keep
 @Serializable
 data class UpcomingMovie(
@@ -95,6 +96,9 @@ data class Dates(
     @SerialName("minimum") val minimum: String
 )
 
+*/
+
+
 /**
  * Code from flixter plus:
  *
@@ -132,3 +136,39 @@ data class Dates(
  *
  *
  * */
+//make every data class here serializable in the case that it needs to be sent over the network
+
+//above comments were the code I had previously, but it didn't align with the correct JSON response
+@Serializable
+data class ApiResponse(
+    @SerialName("dates") val dates: Dates?,  //Refer to the Dates Definition
+    @SerialName("page") val page: Int?,  //Primitive Datatype
+    @SerialName("results") val results: List<UpcomingMovie>,  //Refer to the datatype UpcomingMovie
+    @SerialName("total_pages") val totalPages: Int?,
+    @SerialName("total_results") val totalResults: Int?
+) : java.io.Serializable
+
+@Serializable
+data class Dates(
+    @SerialName("maximum") val maximum: String?,
+    @SerialName("minimum") val minimum: String?
+) : java.io.Serializable
+
+@Serializable
+data class UpcomingMovie(  //corresponds to the JSON object's attributes
+    @SerialName("id") val id: Int,
+    @SerialName("backdrop_path") val backdropPath: String?,
+    @SerialName("genre_ids") val genreIds: List<Int>,
+    @SerialName("original_language") val originalLanguage: String?,
+    @SerialName("original_title") val originalTitle: String?,
+    @SerialName("overview") val overview: String?,
+    @SerialName("popularity") val popularity: Double?,
+    @SerialName("poster_path") val posterPath: String?,
+    @SerialName("release_date") val releaseDate: String?,
+    @SerialName("title") val title: String?,
+    @SerialName("video") val video: Boolean?,
+    @SerialName("vote_average") val voteAverage: Double?,
+    @SerialName("vote_count") val voteCount: Int?
+) : java.io.Serializable
+
+//purpose of java.io.Serializable: allows us to convert an object stream that we can send over the entwork or save it as file or store in DB for later usage.

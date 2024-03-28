@@ -3,19 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="200dp"
-    android:background="@drawable/border_frame"
-    >
+    android:background="@drawable/border_frame">
 
     <ImageView
         android:id="@+id/mediaImage"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="10dp"
-        android:scaleType="centerInside"
+        app:layout_constraintWidth_percent="0.35"
+        app:layout_constraintHeight_percent="1"
+        android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintWidth_percent=".35" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/mediaTitle"
@@ -30,7 +30,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/mediaImage"
-        app:layout_constraintTop_toTopOf="@+id/mediaImage" />
+        app:layout_constraintTop_toTopOf="@id/mediaImage" />
 
     <TextView
         android:id="@+id/mediaAbstract"
@@ -44,7 +44,7 @@
         android:text="Abstract"
         android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/mediaImage"
-        app:layout_constraintTop_toBottomOf="@+id/mediaTitle" />
+        app:layout_constraintStart_toEndOf="@id/mediaImage"
+        app:layout_constraintTop_toBottomOf="@id/mediaTitle" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
