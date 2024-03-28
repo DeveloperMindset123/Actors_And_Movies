@@ -1,4 +1,4 @@
-package com.codepath.articlesearch
+package com.example.actors_and_movies  //updated the path so we can correctly access the package in other files
 
 import android.os.Bundle
 import android.widget.ImageView

@@ -1,4 +1,4 @@
-package com.codepath.articlesearch
+package com.example.actors_and_movies
 
 import android.content.Context
 import android.content.Intent
@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.actors_and_movies.R
 import com.example.actors_and_movies.UpcomingMovie
-//import com.example.actors_and_movies.DetailAc
+import com.example.actors_and_movies.DetailActivity
 
 const val MOVIE_EXTRA = "MOVIE_EXTRA"
 
@@ -54,7 +54,7 @@ class UpcomingMoviesAdapter(private val context: Context, private val movies: Li
 
             //Navigate to Details screen and pass selected article
             val intent = Intent(context, DetailActivity::class.java)
-            intent.putExtra("MOVIE_EXTRA", movies[absoluteAdapterPosition]) //note that in order for this function to work, upcomingMovie needs to be set to java.io.serializable
+            intent.putExtra(MOVIE_EXTRA, movie) //note that in order for this function to work, upcomingMovie needs to be set to java.io.serializable
             context.startActivity(intent)
 /*
             val intent = Intent(context, DetailActivity::class.java)

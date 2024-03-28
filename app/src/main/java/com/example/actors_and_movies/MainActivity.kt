@@ -9,13 +9,14 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 //import com.codepath.articlesearch.R
-import com.codepath.articlesearch.UpcomingMoviesAdapter
+import com.example.actors_and_movies.UpcomingMoviesAdapter
 import com.codepath.asynchttpclient.AsyncHttpClient
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler
 import kotlinx.serialization.decodeFromString
 import okhttp3.Headers
 import org.json.JSONException
 import kotlinx.serialization.json.Json
+import com.example.actors_and_movies.DetailActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var moviesRecyclerView: RecyclerView
