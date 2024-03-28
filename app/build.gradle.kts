@@ -2,7 +2,7 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("kotlin-parcelize")
-    id("org.jetbrains.kotlin.plugin.serialization") version("1.7.10") apply false
+    id("org.jetbrains.kotlin.plugin.serialization") version("1.6.0") apply true
 }
 
 android {

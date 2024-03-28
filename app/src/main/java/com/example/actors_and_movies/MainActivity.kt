@@ -45,7 +45,10 @@ class MainActivity : AppCompatActivity() {
                 progressBar.visibility = View.GONE
                 try {
                     // Decode the JSON response into the ApiResponse object
-                    val moviesResponse = Json.decodeFromString<ApiResponse>(json.jsonObject.toString())
+                    val moviesResponse = Json {ignoreUnknownKeys=true
+                        isLenient = true} .decodeFromString<ApiResponse>(
+                        json?.jsonObject.toString()
+                    )
                     Log.i("API Response:", moviesResponse.toString())
                     // Clear existing movies and add all new ones from the response
                     movies.clear()
@@ -70,3 +73,20 @@ class MainActivity : AppCompatActivity() {
         private const val UPCOMING_MOVIE_URL = "https://api.themoviedb.org/3/movie/upcoming?language=en-US&page=1&api_key=$API_KEY"
     }
 }
+
+/**
+ *
+ * refer to build.gradle for the version changes that were implemented:
+The following below was the slack response that helped clear out the misunderstanding:
+
+Using different versions for Serialization I suggest using 1.6.0 for all plugins and dependencies
+You should use ApiResponse  but since you are not parsing all the data you need to set isLenient = true
+val parsedJson = Json {ignoreUnknownKeys=true
+    isLenient = true} .decodeFromString<ApiResponse>(
+    json?.jsonObject.toString()
+)
+You are defining some fields that are not part of the API schema Fields [byline, headline, multimedia]   set them to null (to make them not required) or remove them
+You need to know which is the format of each field i.e. vote_average is defined as Int but in the API the value is a float/double
+After fixing that your parsing is going to work
+
+        */
