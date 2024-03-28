@@ -7,6 +7,8 @@
     android:layout_height="match_parent"
     tools:context=".DetailActivity">
 
+
+
     <ImageView
         android:id="@+id/mediaImage"
         android:layout_width="0dp"
