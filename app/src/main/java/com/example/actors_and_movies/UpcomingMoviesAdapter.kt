@@ -1,4 +1,4 @@
-package com.codepath.articlesearch
+package com.example.actors_and_movies  //needed to updated this to the right package name
 
 import android.content.Context
 import android.content.Intent

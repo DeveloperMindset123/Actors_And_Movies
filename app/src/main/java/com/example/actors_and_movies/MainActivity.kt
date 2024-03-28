@@ -8,8 +8,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.actors_and_movies.DetailActivity
 //import com.codepath.articlesearch.R
-import com.codepath.articlesearch.UpcomingMoviesAdapter
+import com.example.actors_and_movies.UpcomingMoviesAdapter
 import com.codepath.asynchttpclient.AsyncHttpClient
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler
 import kotlinx.serialization.decodeFromString
