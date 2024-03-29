@@ -1,20 +1,21 @@
 package com.example.actors_and_movies  //updated the path so we can correctly access the package in other files
 
+
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners
-import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
+import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions.withCrossFade
 import com.bumptech.glide.request.transition.DrawableCrossFadeFactory
-import com.example.actors_and_movies.R
-import com.example.actors_and_movies.UpcomingMovie
+
 
 class DetailActivity : AppCompatActivity() {
     private lateinit var mediaImageView: ImageView
     private lateinit var titleTextView: TextView
     private lateinit var overviewTextView: TextView
+    //private lateinit var requestOptions : RequestOptions
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -39,8 +40,9 @@ class DetailActivity : AppCompatActivity() {
         //requestOptions = requestOptions.transforms(new CenterCrop ())
         Glide.with(this)
             .load(imagePath)
-            .transition(DrawableTransitionOptions.withCrossFade(factory))
+            .transition(withCrossFade(factory))
             .transform(RoundedCorners(50))
             .into(mediaImageView)
+
     }
 }
