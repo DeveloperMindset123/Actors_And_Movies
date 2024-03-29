@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='/Users/ayandas/Desktop/Android_Studio_Projects/Actors_And_Movies/Project4-Demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2Y1ejl3M3UyMmcyNXBxaTdzZGs4ZXZyZmhyNGdhamd6Ym1rNWQxeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VnlDopMcxACZC7q6Av/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
@@ -42,7 +42,7 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Processing the API response wasn't working, I had to seek out help from the slack help group to fix the error. Turns out it was due to version mismatch, and additionally, in order for the intent to display the details as needed, I also needed to ensure that .DetailActivity was declared wtihin AndroidManifest.xml file. Additionally, JSON decode to string doesn't automatically ignore null strings so I had to add additional parameters ensuring null values were ignored.
 
 ## License
 
